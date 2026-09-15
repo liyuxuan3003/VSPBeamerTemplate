@@ -9,6 +9,7 @@
 \usepackage{minimus-math}
 \usepackage{minimus-float}
 \usepackage{minimus-code}
+\usepackage{minimus-colorbox}
 \usepackage{minimus-reference}
 \usepackage{minimus-bibtex}
 
@@ -33,17 +34,17 @@
 
 \section{1. Slide Structure: 页面结构}
 
-\begin{frame}[fragile]{1. Slide Structure}
+\begin{frame}{1. Slide Structure}
 固定标题 A。标题始终停留在页面顶部，正文从标题下方开始。
 \end{frame}
 
-\begin{frame}[fragile]{1. Slide Structure}
+\begin{frame}{1. Slide Structure}
 固定标题 B。适合需要更强标题标签和独立正文区域的页面。
 \end{frame}
 
 \section{2. Layout Patterns: 分栏与图片}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 \begin{columns}[T,onlytextwidth]
   \begin{column}{.48\textwidth}
     左侧内容 用于放置主要说明、定义或步骤。
@@ -54,7 +55,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 \begin{columns}[T,onlytextwidth]
   \begin{column}{.48\textwidth}
     左侧内容 图片分栏适合展示案例、截图或结果对比。普通分栏会保留完整标题行，正文和图片从标题下方开始。
@@ -65,7 +66,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{2. Right Fill Text}
+\begin{frame}{2. Right Fill Text}
 \begin{columns}[T,onlytextwidth]
   \begin{column}{.48\textwidth}
     左栏保留标题和主要说明。加上 \texttt{right-fill} 后，左栏正文仍然会避开标题，但不会浪费整行标题高度。
@@ -94,7 +95,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{2. Right Fill}
+\begin{frame}{2. Right Fill}
 \texttt{right-fill} 用在图片更重要的页面。右侧图片从页面顶部开始占满右栏，左侧标题和正文都保留在左栏。
 
 \begin{itemize}
@@ -109,19 +110,19 @@
 \includegraphics[width=\linewidth,height=.54\textheight,keepaspectratio]{\VSPasset{nailong-wave.png}}
 \end{frame}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 很扁且细节多的宽图不要硬塞进左右分栏。这里使用 \texttt{rows-2-28}，让说明占少量空间，图片获得更高的展示区域。
 
 \includegraphics[width=\linewidth,height=.54\textheight,keepaspectratio]{\VSPasset{ShanghaiTech_Logo_RGB.png}}
 \end{frame}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 图片比较窄或接近竖图时，让文字占 60\%，图片占 40\%。适合人物图、设备图或只需要辅助展示的小图。
 
 \includegraphics[width=\linewidth,height=.54\textheight,keepaspectratio]{\VSPasset{ShanghaiTech_Logo_RGB.png}}
 \end{frame}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 \begin{columns}[T,onlytextwidth]
   \begin{column}{.28\textwidth}
     横向图片信息比较多时，让图片占更大空间。左侧只保留结论、提示或简短说明，适合截图、流程图或宽幅结果图。
@@ -132,7 +133,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{2. Layout Patterns}
+\begin{frame}{2. Layout Patterns}
 \begin{columns}[T,onlytextwidth]
   \begin{column}{.32\textwidth}
     \includegraphics[width=\linewidth,height=.54\textheight,keepaspectratio]{\VSPasset{nailong-wave.png}}
@@ -148,7 +149,7 @@
 
 \section{3. Emphasis Styles: 列表与引用}
 
-\begin{frame}[fragile]{3. Emphasis Styles}
+\begin{frame}{3. Emphasis Styles}
 VSP-Beamer 提供多种列表和提示框样式，适合教学展示使用。下面几页分别展示双列列表、单列流程、强调引用和代码块。
 
 \begin{itemize}
@@ -165,7 +166,7 @@ VSP-Beamer 提供多种列表和提示框样式，适合教学展示使用。下
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{3. Emphasis Styles}
+\begin{frame}{3. Emphasis Styles}
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
@@ -183,7 +184,7 @@ VSP-Beamer 提供多种列表和提示框样式，适合教学展示使用。下
 \end{enumerate}
 \end{frame}
 
-\begin{frame}[fragile]{3. Emphasis Styles}
+\begin{frame}{3. Emphasis Styles}
 \begin{itemize}
 \item
   适合并列展示多个要点
@@ -200,7 +201,7 @@ VSP-Beamer 提供多种列表和提示框样式，适合教学展示使用。下
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{3. Emphasis Styles}
+\begin{frame}{3. Emphasis Styles}
 \begin{itemize}
 \item
   先说明上下文和输入条件
@@ -211,7 +212,7 @@ VSP-Beamer 提供多种列表和提示框样式，适合教学展示使用。下
 \end{itemize}
 \end{frame}
 
-\begin{frame}[t,fragile]{3. Emphasis Styles}
+\begin{frame}[t]{3. Emphasis Styles}
 \begin{vspquote}{强调引用}
 适合突出课堂提示、注意事项或阶段性结论。
 \end{vspquote}
@@ -246,13 +247,13 @@ app: main.o utils.o
 
 \section{5. Minimus: 功能环境}
 
-\begin{frame}[fragile]{5. Minimus Figure}
+\begin{frame}{5. Minimus Figure}
 \begin{Figure}[Minimus Figure;minimus-figure]
     \includegraphics[width=.45\linewidth]{\VSPasset{ShanghaiTech_Logo_RGB.png}}
 \end{Figure}
 \end{frame}
 
-\begin{frame}[fragile]{5. Minimus Table}
+\begin{frame}{5. Minimus Table}
 \begin{Table}[Minimus Table;minimus-table]
     \begin{tblr}{colspec={XX}}
         English & Greek \\
@@ -263,7 +264,7 @@ app: main.o utils.o
 \end{Table}
 \end{frame}
 
-\begin{frame}[fragile]{5. Minimus Code}
+\begin{frame}{5. Minimus Code}
 \begin{Code}[Minimus Code;minimus-code]{python}
     \lstinputlisting{code/example.py}
 \end{Code}
