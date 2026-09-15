@@ -44,6 +44,7 @@ VSPBeamerTemplate   # The root of git repo
 .  |- vsp-beamer/
 .  |- Makefile
 .  |- MyProject.tex
+.  |- Section01.tex
 |- .gitignore
 |- .gitmodules
 |- init.sh
