@@ -32,7 +32,9 @@ VSPBeamerTemplate   # The root of git repo
 |- .git
 |- MyProject        # The sub dir of source files (run make here!)
 .  |- build/
+.  |- code/
 .  |- makefile-latex/
+.  |- minimus/
 .  |- vsp-beamer/
 .  |- Makefile
 .  |- MyProject.tex
@@ -68,4 +70,5 @@ make clean
 | 子模块 | 文档 |
 |--------|------|
 | `vsp-beamer` | [README](VSPBeamer/vsp-beamer/README.md) |
+| `minimus` | [README](VSPBeamer/minimus/README.md) |
 | `makefile-latex` | [README](VSPBeamer/makefile-latex/README.md) |

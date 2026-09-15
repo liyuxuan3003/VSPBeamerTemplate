@@ -6,3 +6,7 @@
 	path = VSPBeamer/makefile-latex
 	url = git@Lithium:LaTeX/MakefileLaTeX.git
 	branch = dev
+[submodule "VSPBeamer/minimus"]
+	path = VSPBeamer/minimus
+	url = git@Lithium:LaTeX/Minimus.git
+	branch = dev
