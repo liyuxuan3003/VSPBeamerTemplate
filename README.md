@@ -39,7 +39,6 @@ VSPBeamerTemplate   # The root of git repo
 |- .git
 |- MyProject        # The sub dir of source files (run make here!)
 .  |- build/
-.  |- code/
 .  |- makefile-latex/
 .  |- minimus/
 .  |- vsp-beamer/
