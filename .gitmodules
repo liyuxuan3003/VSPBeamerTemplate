@@ -1,8 +1,8 @@
-[submodule "VSP/vsp-beamer"]
-	path = VSP/vsp-beamer
+[submodule "VSPBeamer/vsp-beamer"]
+	path = VSPBeamer/vsp-beamer
 	url = git@Lithium:LaTeX/VSPBeamer.git
 	branch = dev
-[submodule "VSP/makefile-latex"]
-	path = VSP/makefile-latex
+[submodule "VSPBeamer/makefile-latex"]
+	path = VSPBeamer/makefile-latex
 	url = git@Lithium:LaTeX/MakefileLaTeX.git
 	branch = dev

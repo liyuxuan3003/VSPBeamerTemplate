@@ -4,8 +4,8 @@
 set -euo pipefail
 
 # Config
-DIR_TEMPLATE="VSP"
-FILE_MAIN="VSP.tex"
+DIR_TEMPLATE="VSPBeamer"
+FILE_MAIN="VSPBeamer.tex"
 FILE_README="VSPBeamerTemplate.md"
 
 # Usage

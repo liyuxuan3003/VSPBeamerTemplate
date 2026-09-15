@@ -1,4 +1,4 @@
-PROJECT:=VSP
+PROJECT:=VSPBeamer
 
 include makefile-latex/latex-std-dependence.mk
 

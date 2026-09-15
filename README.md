@@ -68,5 +68,5 @@ make clean
 
 | 子模块 | 文档 |
 |--------|------|
-| `vsp-beamer` | [README](VSP/vsp-beamer/README.md) |
-| `makefile-latex` | [README](VSP/makefile-latex/README.md) |
+| `vsp-beamer` | [README](VSPBeamer/vsp-beamer/README.md) |
+| `makefile-latex` | [README](VSPBeamer/makefile-latex/README.md) |
