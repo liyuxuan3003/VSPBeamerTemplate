@@ -1,10 +1,17 @@
 # VSPBeamerTemplate
 
-VSPBeamerTemplate是一个开箱即用的LaTeX模板，适用于教学课件和正式汇报，基于自定义文档类`vsp-beamer`。
+VSPBeamerTemplate是一个开箱即用的LaTeX模板，适用于教学课件和正式汇报，具有上科大主题，基于自定义文档类`vsp-beamer`。
 
 VSPBeamerTemplate是LumosLaTeX计划的一部分：https://github.com/liyuxuan3003/LumosLaTeX
 
 https://github.com/liyuxuan3003/VSPBeamerTemplate.git
+
+> VSPBeamer的上游是由Heaticy维护的一套Marp/Beamer模板，这是VSPLab的传统Slide模板
+> 
+> - https://github.com/Heaticy/vsp-marp
+> - https://github.com/Heaticy/vsp-beamer
+>
+> Heaticy的版本实际上更加完善。本项目存在的主要目的是适配LumosLaTeX计划的组织方式。
 
 ## 引入方式
 
