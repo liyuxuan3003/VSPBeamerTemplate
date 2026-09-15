@@ -1,8 +1,16 @@
-\makeatletter\def\input@path{{vsp-beamer}}\makeatother
+\makeatletter\def\input@path{{vsp-beamer}{minimus}}\makeatother
 
 \documentclass[red,tutorial,sectionpages]{vsp-beamer}
 
 \graphicspath{{vsp-beamer/assets/}}
+
+\usepackage{minimus-section}
+\usepackage{minimus-text}
+\usepackage{minimus-math}
+\usepackage{minimus-float}
+\usepackage{minimus-code}
+\usepackage{minimus-reference}
+\usepackage{minimus-bibtex}
 
 
 \title[VSP-Beamer Red]{VSP-Beamer Red}
@@ -234,6 +242,31 @@ app: main.o utils.o
 %.o: %.cpp
     $(CXX) $(CXXFLAGS) -c $< -o $@
 \end{verbatim}
+\end{frame}
+
+\section{5. Minimus: 功能环境}
+
+\begin{frame}[fragile]{5. Minimus Figure}
+\begin{Figure}[Minimus Figure;minimus-figure]
+    \includegraphics[width=.45\linewidth]{\VSPasset{ShanghaiTech_Logo_RGB.png}}
+\end{Figure}
+\end{frame}
+
+\begin{frame}[fragile]{5. Minimus Table}
+\begin{Table}[Minimus Table;minimus-table]
+    \begin{tblr}{colspec={XX}}
+        English & Greek \\
+        A & $\alpha$ \\
+        B & $\beta$ \\
+        C & $\theta$ \\
+    \end{tblr}
+\end{Table}
+\end{frame}
+
+\begin{frame}[fragile]{5. Minimus Code}
+\begin{Code}[Minimus Code;minimus-code]{python}
+    \lstinputlisting{code/example.py}
+\end{Code}
 \end{frame}
 
 \VSPendframe{VSP-Beamer \textcolor{white!60}{/} Tutorial Red \textcolor{white!60}{/} Local theme assets}
