@@ -1,12 +1,12 @@
 [submodule "VSPBeamer/vsp-beamer"]
 	path = VSPBeamer/vsp-beamer
-	url = git@Lithium:LaTeX/VSPBeamer.git
+	url = git@github.com:liyuxuan3003/VSPBeamer.git
 	branch = master
 [submodule "VSPBeamer/makefile-latex"]
 	path = VSPBeamer/makefile-latex
-	url = git@Lithium:LaTeX/MakefileLaTeX.git
+	url = git@github.com:liyuxuan3003/MakefileLaTeX.git
 	branch = master
 [submodule "VSPBeamer/minimus"]
 	path = VSPBeamer/minimus
-	url = git@Lithium:LaTeX/Minimus.git
+	url = git@github.com:liyuxuan3003/Minimus.git
 	branch = master
