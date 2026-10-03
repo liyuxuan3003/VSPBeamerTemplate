@@ -41,10 +41,12 @@ VSPBeamerTemplate   # The root of git repo
 .  |- build/
 .  |- makefile-latex/
 .  |- minimus/
+.  |- standalone-silicon/
 .  |- vsp-beamer/
 .  |- Makefile
 .  |- MyProject.tex
 .  |- Section01.tex
+.  |- TextA.fig.tex
 |- .gitignore
 |- .gitmodules
 |- init.sh
@@ -78,4 +80,5 @@ make clean
 |--------|------|
 | `vsp-beamer` | [README](VSPBeamer/vsp-beamer/README.md) |
 | `minimus` | [README](VSPBeamer/minimus/README.md) |
+| `standalone-silicon` | [README](VSPBeamer/standalone-silicon/README.md) |
 | `makefile-latex` | [README](VSPBeamer/makefile-latex/README.md) |
