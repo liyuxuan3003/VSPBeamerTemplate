@@ -2,7 +2,7 @@
 
 \documentclass[red,tutorial,sectionpages]{vsp-beamer}
 
-\graphicspath{{vsp-beamer/assets/}}
+\graphicspath{{build}{vsp-beamer/assets/}}
 
 \usepackage{minimus-section}
 \usepackage{minimus-text}
@@ -250,6 +250,12 @@ app: main.o utils.o
 \begin{frame}{5. Minimus Figure}
 \begin{Figure}[Minimus Figure;minimus-figure]
     \includegraphics[width=.45\linewidth]{\VSPasset{ShanghaiTech_Logo_RGB.png}}
+\end{Figure}
+\end{frame}
+
+\begin{frame}{5. Standalone Figure}
+\begin{Figure}[Standalone Figure;standalone-figure]
+    \includegraphics{TextA.fig.pdf}
 \end{Figure}
 \end{frame}
 
